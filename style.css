@@ -159,3 +159,37 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+
+@media (max-height: 510px) {
+  .number {
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+  }
+}
+
+@media (max-height: 444px) {
+  .number {
+    display: none;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .again {
+    height: 2rem;
+    width: 14rem;
+  }
+}
+
+@media (max-height: 622px) and (max-width: 306px) {
+  .number {
+    display: none;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .again {
+    height: 2rem;
+    width: 14rem;
+  }
+}
